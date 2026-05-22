@@ -271,6 +271,14 @@
   .nav-links{width:100%}
 }
 
+@media (max-width: 980px){
+  .hero-wrap,.contact-grid,.service-grid,.pricing-grid{grid-template-columns:1fr}
+  .gallery-grid{grid-template-columns:1fr 1fr}
+  h1{max-width:unset}
+  .nav{flex-direction:column;align-items:flex-start}
+  .nav-links{width:100%}
+}
+
 @media (max-width: 640px){
   .gallery-grid{grid-template-columns:1fr}
   .container{width:min(100% - 1rem, 1160px)}
@@ -313,6 +321,10 @@
     scroll-behavior:auto !important;
   }
 }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
   <a class="skip-link" href="#icerik">İçeriğe geç</a>
   <div class="animated-grid" aria-hidden="true"></div>
 
